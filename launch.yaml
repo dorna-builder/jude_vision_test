@@ -1,0 +1,31 @@
+# Vision test: the 2 ml + 100 ml bench, scene only
+# base example — launch config.
+#
+# The seed of every project: bare core_500 chassis, no devices, no
+# tools. The protocol is the canonical bookend pair — Start (motor on +
+# home the rail, fatal "killed" if homing fails) → Park. Copy this
+# folder to start a new project, then grow layout.j2 / recipes.j2 /
+# actions.py from here.
+
+project_name: vision_test
+port:         5010
+scene:        [scene/core_1000.j2, scene/layout.j2, scene/consumables.j2]
+recipes:      recipes.j2
+actions:      actions.py
+checks:       checks.py
+
+# Station-local state folder (calibrate.json, ik.json, path.json).
+# Absolute, or relative to the project folder. Gitignored — per-station
+# truth, never synced.
+core_dir:     core
+
+plan_window:  4
+scheduler: dispatch
+
+default: {}
+uploads: data
+records: results
+replays: rec
+folders:
+  - {key: data, label: Data, path: data, read_only: false}
+  - {key: results, label: Results, path: results, read_only: false}

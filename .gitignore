@@ -1,0 +1,19 @@
+# what a run writes, a machine keeps, or the builder derives (the AI builder's version history)
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+log/
+core/
+rec/
+results/
+records/
+replays/
+captures/
+counts/
+uploads/
+scene/bench.j2
+*.key
+.ai/*
+!.ai/requirements.json
+!.ai/isolate.json
