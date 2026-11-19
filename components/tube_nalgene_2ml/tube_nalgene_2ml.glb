@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.4.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1434
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 437,
+      "max": [
+        0.6499999761581421,
+        4.559999942779541,
+        0.6452609896659851
+      ],
+      "min": [
+        -0.6499999761581421,
+        0,
+        -0.6452609896659851
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 437
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1347
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tube_nalgene_2ml.glb.bin",
+      "byteLength": 1347
+    }
+  ],
+  "materials": [
+    {
+      "name": "Paint_-_Enamel_Glossy_(Black)",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09803900122642517,
+          0.09803900122642517,
+          0.09803900122642517,
+          1
+        ],
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Screw Cap nalgene 2ml tbe",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Screw Cap nalgene 2ml tbe",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_specular"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}
