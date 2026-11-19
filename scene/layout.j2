@@ -2,151 +2,137 @@
 # Tubes, caps and tools are in consumables.j2.
 
 plate_work_in:
-  type: "adapter_plate_sbs"
+  type: adapter_plate_sbs
   attach:
-    parent_name: "fixture_plate_4"
-    parent_solid: "body"
-    parent_anchor: "D15"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_4
+    parent_solid: body
+    parent_anchor: D15
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 90]
-
 cap_holder_2ml:
-  type: "adapter_plate_sbs"
+  type: adapter_plate_sbs
   attach:
-    parent_name: "fixture_plate_1"
-    parent_solid: "body"
-    parent_anchor: "D17"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_1
+    parent_solid: body
+    parent_anchor: D17
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 90]
-
 capholder_autosampler_2ml_1:
-  type: "capholder_autosampler_2ml"
+  type: capholder_autosampler_2ml
   attach:
-    parent_name: "cap_holder_2ml"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: cap_holder_2ml
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 scale:
-  type: "scale_spx222"
+  type: scale_spx222
   attach:
-    parent_name: "fixture_plate_1"
-    parent_solid: "body"
-    parent_anchor: "H4"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_1
+    parent_solid: body
+    parent_anchor: H4
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 180]
-
 source_adapter:
-  type: "adapter_plate_idex_100ml_4x4"
+  type: adapter_plate_idex_100ml_4x4
   attach:
-    parent_name: "fixture_plate_7"
-    parent_solid: "body"
-    parent_anchor: "E9"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_7
+    parent_solid: body
+    parent_anchor: E9
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 0]
-
 source_rack:
-  type: "rack_idex_100ml_4x4"
+  type: rack_idex_100ml_4x4
   attach:
-    parent_name: "source_adapter"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: source_adapter
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 cap_holder_100ml_adapter:
-  type: "adapter_capholder_idex_100ml_4x4"
+  type: adapter_capholder_idex_100ml_4x4
   attach:
-    parent_name: "fixture_plate_4"
-    parent_solid: "body"
-    parent_anchor: "E10"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_4
+    parent_solid: body
+    parent_anchor: E10
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 0]
-
 cap_holder_100ml:
-  type: "capholder_idex_100ml_4x4"
+  type: capholder_idex_100ml_4x4
   attach:
-    parent_name: "cap_holder_100ml_adapter"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: cap_holder_100ml_adapter
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 scale_top:
-  type: "scale_top_nalgene_2ml"
+  type: scale_top_nalgene_2ml
   attach:
-    parent_name: "scale"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: scale
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 vial_plate_3:
-  type: "rack_autosampler_2ml"
+  type: rack_autosampler_2ml
   attach:
-    parent_name: "plate_work_in"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: plate_work_in
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 adapter_plate_sbs_1:
-  type: "adapter_plate_sbs"
+  type: adapter_plate_sbs
   attach:
-    parent_name: "fixture_plate_1"
-    parent_solid: "body"
-    parent_anchor: "D12"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_1
+    parent_solid: body
+    parent_anchor: D12
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 90]
-
-adapter_plate_amber_40ml_1x6_1:
-  type: "adapter_plate_amber_40ml_1x6"
-  attach:
-    parent_name: "fixture_plate_7"
-    parent_solid: "body"
-    parent_anchor: "E15"
-    child_solid: "body"
-    child_anchor: "hole_0"
-    offset: [0, 0, 0, 0, 0, 0]
-
-rack_amber_40ml_1x6_1:
-  type: "rack_amber_40ml_1x6"
-  attach:
-    parent_name: "adapter_plate_amber_40ml_1x6_1"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
-    offset: [0, 0, 0, 0, 0, 90]
-
 tip_rack:
-  type: "rack_axygen_180ul"
+  type: rack_axygen_180ul
   attach:
-    parent_name: "adapter_plate_sbs_1"
-    parent_solid: "body"
-    parent_anchor: "place"
-    child_solid: "body"
-    child_anchor: "center"
+    parent_name: adapter_plate_sbs_1
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
     offset: [0, 0, 0, 0, 0, 0]
-
 tool_rack_144mm_2:
-  type: "tool_rack_144mm"
+  type: tool_rack_144mm
   attach:
-    parent_name: "fixture_plate_7"
-    parent_solid: "body"
-    parent_anchor: "A17"
-    child_solid: "body"
-    child_anchor: "hole_0"
+    parent_name: fixture_plate_7
+    parent_solid: body
+    parent_anchor: A17
+    child_solid: body
+    child_anchor: hole_0
     offset: [0, 0, 0, 0, 0, 90]
+adapter_plate_amber_40ml_1x6_1:
+  type: adapter_plate_amber_40ml_1x6
+  attach:
+    parent_name: fixture_plate_7
+    parent_solid: body
+    parent_anchor: D14
+    child_solid: body
+    child_anchor: hole_0
+    offset: [0, 0, 0, 0, 0, 90]
+rack_amber_40ml_1x6_1:
+  type: rack_amber_40ml_1x6
+  attach:
+    parent_name: adapter_plate_amber_40ml_1x6_1
+    parent_solid: body
+    parent_anchor: place
+    child_solid: body
+    child_anchor: center
+    offset: [0, 0, 0, 0, 0, 0]
